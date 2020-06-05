@@ -1,23 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Eater&family=Metal+Mania&family=Parisienne&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Eater&family=Metal+Mania&family=Parisienne&display=swap");
 
 body {
-    background-image: url(https://media.giphy.com/media/128Ygie2wLdH5m/giphy.gif);
-    
+  background-image: url(https://media.giphy.com/media/128Ygie2wLdH5m/giphy.gif);
 }
 
 /*------------------------------------------ Heading */
 h1 {
-text-align: center;
-letter-spacing: 2px;
-font-size: 100px;
-color: rgb(185, 185, 185);
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 120px;
+  color: rgb(11, 197, 243);
 }
 
 /*------------------------------------------ Quetion */
 
+ h2{
+  text-align: center;
+  font-size: 65px;
+  letter-spacing: 2px;
+  color: rgb(11, 197, 243);
+}
+
 p {
     text-align: center;
-    font-size: 60px;
-    letter-spacing: 2px;
-    color: rgb(185, 185, 185);
+  font-size: 60px;
+  letter-spacing: 2px;
+  color: rgb(11, 197, 243);
+  padding-top:15%;
+}
+
+img {
+    height: 300px;
+}
+
+.pokemon img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
