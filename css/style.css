@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Eater&family=Metal+Mania&family=Parisienne&display=swap');
+
+body {
+    background-color: #000;
+}
+
+/*------------------------------------------ Heading */
+h1 {
+text-align: center;
+letter-spacing: 2px;
+font-size: 100px;
+color: #008307;
+}
+
+/*------------------------------------------ Quetion */
+
+p {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #008307;
+}
