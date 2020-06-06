@@ -36,12 +36,17 @@ img {
     display: block;
   margin-left: auto;
   margin-right: auto;
+  column-count: 2;
 }
 
-.silhouette {
-    clear: both; 
-    column-count: 1;
-  text-align: center;
-  padding-top: 7%;
+.game {
+
 }
 
+.film-tv{
+column-count: 1;
+}
+
+.double{
+column-count: 1;
+}
