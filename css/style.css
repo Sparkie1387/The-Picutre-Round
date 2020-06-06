@@ -10,44 +10,107 @@ h1 {
   text-align: center;
   letter-spacing: 2px;
   font-size: 120px;
-  color: rgb(11, 197, 243);
-  
+  color: rgb(0, 119, 255);
+  text-transform: uppercase;
+  font-family: 'Metal Mania', sans-serif;
 }
 
 /*------------------------------------------ Quetion */
 
- h2{
-  text-align: center;
-  font-size: 65px;
-  letter-spacing: 2px;
-  color: rgb(11, 197, 243);
-}
 
 p {
     text-align: center;
-  font-size: 60px;
+  font-size: 90px;
   letter-spacing: 2px;
-  color: rgb(11, 197, 243);
+  color: rgb(0, 119, 255);
   padding-top:15%;
   text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Metal Mania', sans-serif;
 }
 
 img {
-    height: 300px;
+    height: 250px;
     display: block;
   margin-left: auto;
   margin-right: auto;
- 
+ padding: 25px;
 }
 
 .game {
 columns: 2;
 }
 
-.film-tv{
+.film{
 columns: 2;
 }
 
 .double{
 columns: 2;
+}
+
+@media screen and (max-width:1200px){
+img {
+    height: 100px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+ padding: 25px;
+}
+
+.game {
+columns: 2;
+}
+
+.film{
+columns: 2;
+}
+
+.double{
+columns: 2;
+}
+}
+
+@media screen and (max-width: 992px){
+img {
+    height: 100px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+ padding: 25px;
+}
+
+.game {
+columns: 2;
+}
+
+.film{
+columns: 2;
+}
+
+.double{
+columns: 2;
+}
+}
+
+@media screen and (max-width: 600px){
+img {
+    height: 100px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+ padding: 25px;
+}
+
+.game {
+columns: 2;
+}
+
+.film{
+columns: 2;
+}
+
+.double{
+columns: 2;
+}
 }
