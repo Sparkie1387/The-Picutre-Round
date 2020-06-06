@@ -50,6 +50,11 @@ columns: 2;
 }
 
 @media screen and (max-width:1200px){
+h1 {
+font-size: 100px;
+text-align: center;
+}
+
 img {
     height: 100px;
     display: block;
