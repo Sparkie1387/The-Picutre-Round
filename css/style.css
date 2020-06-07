@@ -49,6 +49,20 @@ columns: 2;
 columns: 2;
 }
 
+.answer {
+    text-align: center;
+}
+.submit {
+    text-align: center; 
+    padding: 5%;
+    
+}
+
+.result {
+    color: blue;
+    width: 22%;
+}
+
 @media screen and (max-width:1200px){
 h1 {
 font-size: 100px;
