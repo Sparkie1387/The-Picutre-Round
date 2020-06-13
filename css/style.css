@@ -49,7 +49,12 @@ button:hover {
 
 #results{
   font-size: 30px;
-  color: white;  
+  color: white; 
+   
+}
+
+#results {
+    text-align: center;
 }
 
 @media screen and (max-width:1200px){
