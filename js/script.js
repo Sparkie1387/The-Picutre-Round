@@ -1,5 +1,6 @@
 (function(){
   // Functions
+
   function buildQuiz(){
     // variable to store the HTML output
     const output = [];
@@ -101,6 +102,7 @@
     showSlide(currentSlide - 1);
   }
 
+
   // Variables
   const quizContainer = document.getElementById('quiz');
   const resultsContainer = document.getElementById('results');
@@ -134,6 +136,7 @@
     correctAnswer: "c"
   }
 ];
+  
 
   // Kick things off
   buildQuiz();
