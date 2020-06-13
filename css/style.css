@@ -22,7 +22,7 @@ h1 {
     text-align: center;
   font-size: 40px;
   letter-spacing: 2px;
-  color: rgb(0, 119, 255);
+  color: white;
   padding-top:10%;
   text-transform: uppercase;
   font-weight: bold;
@@ -48,8 +48,8 @@ button:hover {
 }
 
 #results{
-    
-  color: rgb(0, 119, 255);  
+  font-size: 30px;
+  color: white;  
 }
 
 @media screen and (max-width:1200px){
